@@ -145,11 +145,26 @@ nav{
 }
 .strength-group{
 	width: 980px
-	padding:30px 0 90px 0;
+	padding:45px 0 90px 0;
 }
-.st-title{
+.st-content{
 	width:320px;
 	height: auto;
+	margin-right:10px;
 	float: left;
 	text-align: center;
+}
+.st-content:last-child{
+	margin-right: 0px;
+}
+
+.st-title{
+	margin:20px auto;
+}
+.st-text{
+	text-align: left;
+	margin-bottom: 90px;
+}
+.fa{
+	font-size: 60px;
 }
