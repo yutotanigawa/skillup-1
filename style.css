@@ -213,9 +213,23 @@ nav{
 	background-image: url(img/my-icon.jpg);
 	width:250px;
 	height:250px;
+	border-radius: 50%;
+	margin: 0 auto;
 }
 
 .right-pr{
 	width: 50%;
 	float: left;
+}
+.my-name{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.my-prof{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.my-skills{
+	font-size: 20px;
+	margin-bottom: 5px;
 }
