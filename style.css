@@ -252,7 +252,7 @@ nav{
 }
 .ct-text{
 	text-align: center;
-	margin:30px auto;
+	margin-top: 30px;
 }
 .ct-contents{
 	width: 800px;
@@ -291,4 +291,15 @@ nav{
 }
 .right-ct .fab:last-child{
 	margin-right: 0px;
+}
+footer{
+	height: 60px;
+	background-color: #EC715F;
+	line-height: 60px;
+}
+.footer-text{
+	display: block;
+	color: #FAFAFA;
+	font-size: 16px;
+	text-align: center;
 }
