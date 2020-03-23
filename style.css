@@ -233,3 +233,62 @@ nav{
 	font-size: 20px;
 	margin-bottom: 5px;
 }
+#contact{
+	padding: 90px auto;
+}
+.ct-title{
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+	margin-top: 90px;
+}
+.ct-title::after{
+	content: "";
+	display: block;
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	margin: 8px auto;
+}
+.ct-text{
+	text-align: center;
+	margin:30px auto;
+}
+.ct-contents{
+	width: 800px;
+	margin :0 auto;
+	padding: 30px 0 90px 0;
+}
+.left-ct{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.mail-title{
+	margin-bottom: 5px;
+}
+.mail-text{
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+.tel-title{
+	margin-bottom: 5px;
+}
+.tel-text{
+	text-decoration: underline;
+}
+.right-ct{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.sns-title{
+	margin-bottom: 5px;
+}
+.right-ct .fab{
+	font-size: 50px;
+	margin-right: 20px;
+}
+.right-ct .fab:last-child{
+	margin-right: 0px;
+}
